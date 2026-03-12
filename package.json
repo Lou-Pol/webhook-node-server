@@ -1,0 +1,14 @@
+{
+  "name": "webhook-node-server",
+  "version": "1.0.0",
+  "description": "Mini serveur Node.js pour recevoir un webhook GitHub",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "smee-client": "^5.0.0"
+  }
+}
